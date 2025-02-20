@@ -13,6 +13,15 @@
         android:theme="@style/Theme.FixMe"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_MostrarServicioSeleccionado"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_PedirServicio"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_OfrecerServicio"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_CrearCuenta"
             android:exported="false" />
         <activity
